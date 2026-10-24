@@ -1,0 +1,38 @@
+body {
+    font-family: 'Press Start 2P', monospace;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    color: #fff;
+    touch-action: manipulation;
+}
+
+.game-border {
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.5), inset 0 0 15px rgba(0, 0, 0, 0.8);
+    border: 4px solid #7c3aed;
+}
+
+.panel-box {
+    background: rgba(15, 23, 42, 0.75);
+    border: 2px solid #4c1d95;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-action {
+    background: linear-gradient(180deg, #6d28d9 0%, #4c1d95 100%);
+    box-shadow: 0 4px 0 #2e1065;
+    transition: all 0.1s ease;
+}
+
+.btn-action:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #2e1065;
+}
+
+.btn-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    touch-action: manipulation;
+}
+
+.btn-control:active {
+    background: rgba(255, 255, 255, 0.3);
+}
